@@ -16,8 +16,8 @@
         <kotlin.code.style>official</kotlin.code.style>
         <junit.version>4.12</junit.version>
         <serialization.version>1.2.1</serialization.version>
-<!--        <maven.compiler.target>1.8</maven.compiler.target>-->
-<!--        <maven.compiler.source>1.8</maven.compiler.source>-->
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
 
     </properties>
 
@@ -96,13 +96,13 @@
         <testSourceDirectory>src/test/kotlin</testSourceDirectory>
 
         <plugins>
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-compiler-plugin</artifactId>-->
-<!--                <version>3.8.0</version>-->
-<!--                <configuration>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.jetbrains.kotlin</groupId>
                 <artifactId>kotlin-maven-plugin</artifactId>
