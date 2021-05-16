@@ -58,7 +58,7 @@ fun main() {
                 document.put("title", "testing")
 
                 val newValDoc = BasicDBObject()
-                newValDoc.put("title", "TESTING_2")
+                newValDoc.put("other info", obj.other_info)
 
                 val updateObject= BasicDBObject()
                 updateObject.put("\$set", newValDoc)
